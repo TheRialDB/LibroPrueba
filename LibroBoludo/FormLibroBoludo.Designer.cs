@@ -40,6 +40,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lblVocales = new System.Windows.Forms.Label();
             this.lblConso = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblNumeros = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBook)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,7 +114,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(50, 205);
+            this.label4.Location = new System.Drawing.Point(47, 205);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 13);
             this.label4.TabIndex = 8;
@@ -121,7 +123,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(53, 278);
+            this.label6.Location = new System.Drawing.Point(47, 269);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(158, 13);
             this.label6.TabIndex = 10;
@@ -139,17 +141,37 @@
             // lblConso
             // 
             this.lblConso.AutoSize = true;
-            this.lblConso.Location = new System.Drawing.Point(232, 278);
+            this.lblConso.Location = new System.Drawing.Point(232, 269);
             this.lblConso.Name = "lblConso";
             this.lblConso.Size = new System.Drawing.Size(13, 13);
             this.lblConso.TabIndex = 13;
             this.lblConso.Text = "0";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(47, 239);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(142, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "Títulos iniciados en números";
+            // 
+            // lblNumeros
+            // 
+            this.lblNumeros.AutoSize = true;
+            this.lblNumeros.Location = new System.Drawing.Point(232, 239);
+            this.lblNumeros.Name = "lblNumeros";
+            this.lblNumeros.Size = new System.Drawing.Size(13, 13);
+            this.lblNumeros.TabIndex = 15;
+            this.lblNumeros.Text = "0";
             // 
             // FormLibroBoludo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(648, 322);
+            this.Controls.Add(this.lblNumeros);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.lblConso);
             this.Controls.Add(this.lblVocales);
             this.Controls.Add(this.label6);
@@ -185,6 +207,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lblVocales;
         private System.Windows.Forms.Label lblConso;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblNumeros;
     }
 }
 
